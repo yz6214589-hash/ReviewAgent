@@ -1,0 +1,42 @@
+# 四套评分模板（BR-1）：维度与权重全部配置化，代码零硬编码。
+templates:
+  - id: non_applied_summary
+    name: 非应用基础研究类·总结
+    category: non_applied_basic
+    stage: summary
+    dimensions:
+      - {name: 目标完成度, weight: 30, description: 项目目标达成情况、指标完成度}
+      - {name: 成果丰富度, weight: 10, description: 成果类型多样性及数量}
+      - {name: 技术水平先进性, weight: 20, description: 关键技术指标国内外位置}
+      - {name: 科技成果影响力, weight: 10, description: 成果采纳、获奖、引用}
+      - {name: 市场转化, weight: 30, description: 行业核心需求满足、竞品对标、收入转化}
+  - id: non_applied_proposal
+    name: 非应用基础研究类·立项
+    category: non_applied_basic
+    stage: proposal
+    dimensions:
+      - {name: 战略契合度, weight: 20, description: 与公司战略及行业需求的契合程度}
+      - {name: 技术先进性, weight: 20, description: 技术路线先进性与差异化}
+      - {name: 方案可行性, weight: 30, description: 技术方案、计划与资源的可行性}
+      - {name: 团队与基础, weight: 15, description: 团队能力、既有积累与平台条件}
+      - {name: 预期成果与转化, weight: 15, description: 预期成果形态与市场转化前景}
+  - id: applied_summary
+    name: 应用基础研究类·总结
+    category: applied_basic
+    stage: summary
+    dimensions:
+      - {name: 目标完成度, weight: 25, description: 研究目标达成情况、指标完成度}
+      - {name: 理论创新, weight: 25, description: 理论突破与原创性贡献}
+      - {name: 技术水平先进性, weight: 20, description: 关键技术指标国内外位置}
+      - {name: 科技成果影响力, weight: 15, description: 论文、专利、标准与学术影响}
+      - {name: 应用前景, weight: 15, description: 成果向应用转化的潜力}
+  - id: applied_proposal
+    name: 应用基础研究类·立项
+    category: applied_basic
+    stage: proposal
+    dimensions:
+      - {name: 科学问题价值, weight: 25, description: 科学问题的意义与价值}
+      - {name: 研究方案可行性, weight: 30, description: 研究思路、方案与条件可行性}
+      - {name: 创新性, weight: 20, description: 选题与方法的创新性}
+      - {name: 团队与基础, weight: 15, description: 团队研究能力与前期积累}
+      - {name: 应用前景, weight: 10, description: 研究成果的应用牵引与前景}

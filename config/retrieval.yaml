@@ -1,0 +1,7 @@
+# 范文检索配置（F12）：规则过滤参数配置化；bge-m3 向量检索阶段一仅占位。
+fewshot:
+  k: 6               # 返回范文条数上限
+  min_projects: 2    # 命中不同项目数下限，不足则返回空
+embedding:
+  model: bge-m3
+  vector_store: sqlite-vec

@@ -1,2 +1,27 @@
 # Superpowers plugin generated files
 .superpowers/
+
+# Trae IDE generated files
+.trae/
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+*.db
+*.db-shm
+*.db-wal
+
+# Environment variables
+.env
+
+# Debug scripts
+_debug_graph.py
+
+# Node.js
+node_modules/
+
+# IDE
+.vscode/
+.idea/
